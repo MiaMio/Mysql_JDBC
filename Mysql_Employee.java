@@ -36,5 +36,10 @@ public class Mysql_Employee {
 	public void setBalance(int balance) {
 		this.balance = balance;
 	}
+	@Override
+	public String toString() {
+		return "Mysql_Employee [id=" + id + ", user_account=" + user_account + ", pwd=" + pwd + ", balance=" + balance
+				+ "]";
+	}
 	
 }
